@@ -30,27 +30,24 @@
   to {
     transform: rotate(360deg);
   }
-} */
+  } */
 
 
-.header-color{
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045 , #fd1d1d , #833ab4 );
-  background: linear-gradient(to right,  #fcb045 , #fd1d1d , #833ab4  );
-}
+  .landing-grid{
+   background-image: url("./main-visual.jpg");
+   background-repeat-x: repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0%;
+ }
 
-.landing-grid{
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045 , #fd1d1d , #833ab4 );
-  background: linear-gradient(to right,  #fcb045 , #fd1d1d , #833ab4  );
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-}
-
-.avatar-img{
+ .avatar-img{
   padding-top: 5em;
   height: 250px;
 }
