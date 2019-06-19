@@ -18,7 +18,7 @@ class biodata extends Component{
 <div className="social-media">
 <a href=""><i class="fab fa-facebook"></i></a>
 <a href=""><i class="fab fa-instagram"></i></a>
-<a href=""><i class="fab fa-github"></i></a>
+<a href="https://github.com/dzerlangga" target="_blank"><i class="fab fa-github"></i></a>
 <a href=""><i class="fab fa-whatsapp"></i></a>
 </div>
 </div>

@@ -8,9 +8,9 @@ import './App.css';
 class App extends Component {
  render(){
     return (
-    <div className="demo-big-content">
-    <Layout fixedHeader>
-        <Header className="header-color" title="Portfolio" scroll>
+        <div className="demo-big-content">
+    <Layout>
+    <Header className="header-color" title="Portfolio" scroll>
             <Navigation>
                 <Link className="link" to="/">back</Link>
                 <Link to="/contac">contac</Link>
@@ -20,10 +20,10 @@ class App extends Component {
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
             </Navigation>
         </Drawer>
         <Content>
