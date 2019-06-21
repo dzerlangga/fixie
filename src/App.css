@@ -32,22 +32,261 @@
   }
   } */
 
+.sos{
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  font-size: 40px;
+}
 
-  .landing-grid{
-   background-image: url("./main-visual.jpg");
-   background-repeat-x: repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background-size: cover;
-   color: white;
-   text-align: center;
-   position: fixed;
-   width: 100%;
-   height: 100%;
-   top: 0%;
+  .page-progress{
+    position:fixed;
+    top:0;
+    right:140px;
+    width:2px;
+    height:100%;
+    z-index:99;
+    overflow:hidden;
+  }
+  @media (max-width:1740px){
+    .page-progress{
+      right:100px;
+    }
+  }
+  @media (max-width:767px){
+    .page-progress{
+      display:none!important;
+    }
+  }
+  .page-progress span{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    -webkit-transform:translateY(-100%);
+    transform:translateY(-100%);
+    -webkit-transition:background .3s ease-in-out,-webkit-transform .2s ease;
+    transition:background .3s ease-in-out,-webkit-transform .2s ease;
+    transition:background .3s ease-in-out,transform .2s ease;
+    transition:background .3s ease-in-out,transform .2s ease,-webkit-transform .2s ease;
+  }
+  .page-progress span{
+    background:#191136;
+  }
+
+  .page-progress{
+    -webkit-transition:opacity .3s ease-in-out .3s;transition:opacity .3s ease-in-out .3s;
+  } 
+  .page-progress{
+    opacity:0;-webkit-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;
+  }
+
+
+  .gui-pagination{
+   width:100px;
+   text-decoration: none;
+   font-family: 'Font-bike';
+   font-variant: inherit;
+   font-size: 30px;
+   opacity:1;
+   position:fixed;
+   top:120px;
+   bottom:0;
+   right:0;
+   z-index:99;
+   display:-webkit-box;
+   display:-ms-flexbox;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:space-between;
+   padding:50px 0 70px;
  }
 
- .avatar-img{
+.transbox {
+  position: fixed;
+  left: 50px;
+  bottom: 300px;
+  border-radius: 20px;
+  height: 30%;
+  padding-top: 50px;
+  background-color: #ababab;
+  border: 1px solid #ababab;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.line{
+  padding-left: 10px;
+  font-size: 20px;
+}
+.spek{
+  padding-top:150px;
+  padding-bottom: 0px;
+}
+
+.button-active{
+  padding-top: 20px;
+}
+
+.button{
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+}
+
+.button-pay{
+ font-family: 'Font-bike';
+ font-size: 37px;
+ padding-top: 10px;
+ text-align: center;
+ font-variant: inherit;
+}
+
+
+
+@font-face {
+  font-family: Font-bike;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+h1{
+  font-family: 'Font-bike';
+  font-size: 70pt;
+  font-variant: inherit;
+}
+
+.sepedah{
+  z-index: 1000;
+  position: fixed;
+  object-position: fixed;
+  background-repeat-x: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 65px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.search{
+  z-index: 1000;
+  color: white;
+  position: fixed;
+  object-position: fixed;
+  background-repeat-x: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-size: 25px;
+  left: 90%;
+  padding-top: 34px;
+  padding-left: 20px;
+}
+
+.bell{
+  z-index: 1000;
+  color: white;
+  position: fixed;
+  object-position: fixed;
+  background-repeat-x: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-size: 25px;
+  left: 95%;
+  padding-top: 34px;
+  padding-left: 20px;
+}
+
+.harga{
+  padding-top: 10%;
+}
+
+.harga .ukuran{
+  font-size: 40px;
+  color: #0089ff;
+  font-family: 'Font-bike';
+  font-variant: inherit;
+}
+
+.logo-sepedah{
+  width: 104%;
+  padding-top: 19%;
+  margin-top: 70px;
+  margin-block-start: 100px;
+  margin-top: 70px;
+  margin-block-end: -1px;
+  margin-inline-start: -15px;
+  z-index: -10;
+
+}
+
+.logo{
+  padding-right: 10px;
+}
+
+.jarak{ 
+  padding-right: 45px; 
+}
+
+
+.tombol{
+  object-position: fixed;
+  background-repeat-x: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  position: fixed;
+  background-size: cover;
+  padding-top: 10px;
+  text-decoration: underline;
+  z-index: 3;
+  padding-left: 480px;
+}
+
+.text{
+  padding-left: 120px;
+  color: #ffffff;
+  padding-top: 200px;
+}
+
+.lorem{
+  font-size: 20px;
+  font-family: 'Font-bike';
+  color: #d0d0d0;
+
+}
+
+.bike{
+   font-family: 'Font-bike';
+   font-size: 100px;
+   padding-bottom: 0.4em;
+}
+
+.kotak{
+  padding-top: 50px;
+}
+
+.kotak .gambar{
+  background-color:red;
+  border-radius:20px; 
+  text-align:center;
+  width: 100%;
+
+}
+.landing-grid{
+  background:#000000;
+  background: linear-gradient(120deg, #01273a, #000000, #000000,#000000);
+  height: 100%;
+  position: fixed;
+  padding-top: 50px;
+  margin: -7px;
+}
+
+
+.avatar-img{
   padding-top: 5em;
   height: 250px;
 }
@@ -60,12 +299,6 @@
   border-radius: 2px;
 }
 
-.banner-text h1{
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
 
 .banner-text hr {
   border-top: 5px dotted white;
@@ -89,4 +322,8 @@
 .social-media a {
   color: white;
   padding-left: 20px;
+}
+
+.link{
+  text-decoration: none;
 }
